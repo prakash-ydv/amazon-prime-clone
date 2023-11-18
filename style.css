@@ -1,0 +1,381 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Raleway:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---NAV--- */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+    background-color: #00050d;
+}
+
+.nav .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 48px;
+    gap: 1px;
+}
+
+.logo {
+    height: 40px;
+    padding-top: 5px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .nav-bar .centerNav {
+    display: flex;
+    height: 48px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .centerNav ul li {
+    list-style: none;
+
+}
+
+.nav-bar a {
+    padding: 0px 16px;
+    text-decoration: none;
+    color: #AAAAAA;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.nav-bar ul li :hover {
+    color: white;
+    background-color: #191e25;
+}
+
+/* ---Right Nav--- */
+
+.nav-bar .rightNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar .rightNav a :hover {
+    background-color: #191e25;
+}
+
+/* ----Nav done---- */
+
+.sec1 {
+    box-shadow: inset 50vw 0 120px rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    width: 100%;
+    background-image: url(MLP.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.sec1 .welcome {
+    letter-spacing: -0.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 45px;
+    margin-top: 45px;
+    width: 35vw;
+    color: white;
+}
+
+.sec1 .welcome h1 {
+    font-size: 42px;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+.sec1 .welcomeMsg {
+    letter-spacing: -1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 45px;
+    width: 45vw;
+    color: white;
+}
+
+.sec1 .welcomeMsg p {
+    color: white;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+#btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 450;
+    letter-spacing: 0.2px;
+    height: 47px;
+    width: 280px;
+    background-color: #0f79af;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.sec1 .welcomeMsg #btn :hover {
+    background-color: #00a0d6;
+}
+
+/* ---sec1 end--- */
+
+/* ---Sec2 Star */
+.sec2 {
+    box-shadow: inset 50vw 0 120px rgba(0, 0, 0, 0.9);
+    height: 70vh;
+    width: 100%;
+    background-image: url(TVOD_MLP_Right.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec2 .rental {
+    letter-spacing: -0.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 65px;
+    width: 35vw;
+    color: white;
+}
+
+.sec2 .rental h1 {
+    color: white;
+    font-size: 38px;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+.sec2 .rentalMsg {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 65px;
+    width: 35vw;
+    color: white;
+}
+
+.sec2 .rentalMsg p {
+    padding-bottom: 40px;
+    color: white;
+    font-size: 18px;
+}
+
+.sec2 .rentalMsg #btn :hover {
+    background-color: #00a0d6;
+}
+
+/* ---sec2 Done--- */
+
+/* ---sec3 Start--- */
+
+.sec3 {
+    height: 95vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.sec3Left {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 95%;
+    width: 40vw;
+}
+
+.sec3Right {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: flex-start;
+    margin: auto;
+    background-color: pink;
+    height: 95%;
+    width: 50vw;
+}
+
+.sec3Right .box {
+    max-width: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: flex-start;
+    overflow: hidden;
+    display: flex;
+    flex: 1 32%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 32%;
+    max-width: 256px;
+    padding: 0;
+    margin: 3px;
+    transition: box-shadow 0.2s ease-in-out;
+    z-index: 1;
+}
+
+/* Sec3-left */
+
+.sec3 .sec3Left h1{
+    font-size: 40px;
+    margin: 20px;
+    font-weight: 500;
+    font-family: Raleway;
+}
+.sec3 .sec3Left p{
+    font-size: 25px;
+    margin: 20px;
+    font-weight: 100;
+    font-family: Manrope,sans-serif;
+}
+
+/* ---Sec4--- */
+   
+.sec4 {
+    background-image: url(MLP_Template_Image_Left.jpg);
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec4 .rental {
+    letter-spacing: -0.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 100px;
+    width: 35vw;
+    color: white;
+}
+
+.sec4 .rental h1 {
+    color: white;
+    font-size: 38px;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+.sec4 .rentalMsg {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 100px;
+    width: 35vw;
+    color: white;
+}
+
+.sec4 .rentalMsg p {
+    padding-bottom: 40px;
+    color: white;
+    font-size: 17px;
+}
+
+.sec4 .rentalMsg #btn :hover {
+    background-color: #00a0d6;
+}
+
+/*---sec5--- */
+.sec5 {
+    box-shadow: inset 50vw 0 120px rgba(0, 0, 0, 0.9);
+    height: 70vh;
+    width: 100%;
+    background-image: url(IN-kids-30Jan._CB1517304519_.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec5 .rental {
+    letter-spacing: -0.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 70px;
+    width: 35vw;
+    color: white;
+}
+
+.sec5 .rental h1 {
+    color: white;
+    font-size: 38px;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+.sec5 .rentalMsg {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 70px;
+    width: 35vw;
+    color: white;
+}
+
+.sec5 .rentalMsg p {
+    padding-bottom: 40px;
+    color: white;
+    font-size: 17px;
+}
+
+.sec5 .rentalMsg #btn :hover {
+    background-color: #00a0d6;
+}
+
+/* Section 5 Done */
+
+
+/* ---Footer--- */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20vh;
+    width: 100%;
+    background-color: #222222;
+}
+
+.footer span{
+    color: #949494;
+    font-size: 15px;
+    font-family:manrope,sans-serif ;
+}
+
+.footer a{
+    padding-right: 5px;
+    text-decoration: none;
+    color: #0f79af;
+    font-family:manrope,sans-serif ;
+    font-size: 15px;
+    font-weight: 400;
+}
+
